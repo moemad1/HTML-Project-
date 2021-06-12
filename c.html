@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <html>
+     <head>
+        <title>Artificial Intelligence</title>
+      </head>
+<body  background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhRLj-VRfNUSD2YZwpGf7FSXUVmisCgMqYA&usqp=CAU">
+<style>
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhRLj-VRfNUSD2YZwpGf7FSXUVmisCgMqYA&usqp=CAU');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+<table width="100%">
+<tr>
+<td> <a href="index.html"> Introdaction </a> </td>
+<td> <a href="h.html"> History </a> </td>
+<td> <a href="b.html"> Basics </a> </td>
+<td> <a href="c.html"> Challenges </a> </td>
+</tr>
+</table>
+<p style="font-size:160%;color:white;font-family:bold;" >
+The cognitive capabilities of current architectures are very limited, using only a simplified version of what intelligence is really capable of. For instance, the human mind has come up with ways to reason beyond measure and logical explanations to different occurrences in life. What would have been otherwise straightforward, an equivalently difficult problem may be challenging to solve computationally as opposed to using the human mind. This gives rise to two classes of models: structuralist and functionalist. The structural models aim to loosely mimic the basic intelligence operations of the mind such as reasoning and logic. The functional model refers to the correlating data to its computed counterpart.[97]
+
+The overall research goal of artificial intelligence is to create technology that allows computers and machines to function in an intelligent manner. The general problem of simulating (or creating) intelligence has been broken down into sub-problems. These consist of particular traits or capabilities that researchers expect an intelligent system to display. The traits described below have received the most attention.[20]
+
+Reasoning, problem solving
+Early researchers developed algorithms that imitated step-by-step reasoning that humans use when they solve puzzles or make logical deductions.[98] By the late 1980s and 1990s, AI research had developed methods for dealing with uncertain or incomplete information, employing concepts from probability and economics.[99]
+
+These algorithms proved to be insufficient for solving large reasoning problems because they experienced a "combinatorial explosion": they became exponentially slower as the problems grew larger.[82] Even humans rarely use the step-by-step deduction that early AI research could model. They solve most of their problems using fast, intuitive judgments.[100]
+
+Knowledge representation
+Knowledge representation[101] and knowledge engineering[102] are central to classical AI research. Some "expert systems" attempt to gather explicit knowledge possessed by experts in some narrow domain. In addition, some projects attempt to gather the "commonsense knowledge" known to the average person into a database containing extensive knowledge about the world. Among the things a comprehensive commonsense knowledge base would contain are: objects, properties, categories and relations between objects;[103] situations, events, states and time;[104] causes and effects;[105] knowledge about knowledge (what we know about what other people know);[106] and many other, less well researched domains. A representation of "what exists" is an ontology: the set of objects, relations, concepts, and properties formally described so that software agents can interpret them. The semantics of these are captured as description logic concepts, roles, and individuals, and typically implemented as classes, properties, and individuals in the Web Ontology Language.[107] The most general ontologies are called upper ontologies, which attempt to provide a foundation for all other knowledge[108] by acting as mediators between domain ontologies that cover specific knowledge about a particular knowledge domain (field of interest or area of concern). Such formal knowledge representations can be used in content-based indexing and retrieval,[109] scene interpretation,[110] clinical decision support,[111] knowledge discovery (mining "interesting" and actionable inferences from large databases),[112] and other areas.[113]
+
+Among the most difficult problems in knowledge representation are:
+
+Default reasoning and the qualification problem
+Many of the things people know take the form of "working assumptions". For example, if a bird comes up in conversation, people typically picture a fist-sized animal that sings and flies. None of these things are true about all birds. John McCarthy identified this problem in 1969[114] as the qualification problem: for any commonsense rule that AI researchers care to represent, there tend to be a huge number of exceptions. Almost nothing is simply true or false in the way that abstract logic requires. AI research has explored a number of solutions to this problem.[115]
+Breadth of commonsense knowledge
+The number of atomic facts that the average person knows is very large. Research projects that attempt to build a complete knowledge base of commonsense knowledge (e.g., Cyc) require enormous amounts of laborious ontological engineering—they must be built, by hand, one complicated concept at a time.[116]
+Subsymbolic form of some commonsense knowledge
+Much of what people know is not represented as "facts" or "statements" that they could express verbally. For example, a chess master will avoid a particular chess position because it "feels too exposed"[117] or an art critic can take one look at a statue and realize that it is a fake.[118] These are non-conscious and sub-symbolic intuitions or tendencies in the human brain.[119] Knowledge like this informs, supports and provides a context for symbolic, conscious knowledge. As with the related problem of sub-symbolic reasoning, it is hoped that situated AI, computational intelligence, or statistical AI will provide ways to represent this knowledge.[119]
+Planning
+Intelligent agents must be able to set goals and achieve them.[120] They need a way to visualize the future—a representation of the state of the world and be able to make predictions about how their actions will change it—and be able to make choices that maximize the utility (or "value") of available choices.[121]
+
+In classical planning problems, the agent can assume that it is the only system acting in the world, allowing the agent to be certain of the consequences of its actions.[122] However, if the agent is not the only actor, then it requires that the agent can reason under uncertainty. This calls for an agent that can not only assess its environment and make predictions but also evaluate its predictions and adapt based on its assessment.[123]
+
+Multi-agent planning uses the cooperation and competition of many agents to achieve a given goal. Emergent behavior such as this is used by evolutionary algorithms and swarm intelligence.[124]
+
+Learning
+Machine learning (ML), a fundamental concept of AI research since the field's inception,[d] is the study of computer algorithms that improve automatically through experience.[e][127]
+
+Unsupervised learning is the ability to find patterns in a stream of input, without requiring a human to label the inputs first. Supervised learning includes both classification and numerical regression, which requires a human to label the input data first. Classification is used to determine what category something belongs in, and occurs after a program sees a number of examples of things from several categories. Regression is the attempt to produce a function that describes the relationship between inputs and outputs and predicts how the outputs should change as the inputs change.[127] Both classifiers and regression learners can be viewed as "function approximators" trying to learn an unknown (possibly implicit) function; for example, a spam classifier can be viewed as learning a function that maps from the text of an email to one of two categories, "spam" or "not spam". Computational learning theory can assess learners by computational complexity, by sample complexity (how much data is required), or by other notions of optimization.[128] In reinforcement learning[129] the agent is rewarded for good responses and punished for bad ones. The agent uses this sequence of rewards and punishments to form a strategy for operating in its problem space.
+
+Natural language processing
+Natural language processing[130] (NLP) allows machines to read and understand human language. A sufficiently powerful natural language processing system would enable natural-language user interfaces and the acquisition of knowledge directly from human-written sources, such as newswire texts. Some straightforward applications of natural language processing include information retrieval, text mining, question answering and machine translation.[131] Many current approaches use word co-occurrence frequencies to construct syntactic representations of text. "Keyword spotting" strategies for search are popular and scalable but dumb; a search query for "dog" might only match documents with the literal word "dog" and miss a document with the word "poodle". "Lexical affinity" strategies use the occurrence of words such as "accident" to assess the sentiment of a document. Modern statistical NLP approaches can combine all these strategies as well as others, and often achieve acceptable accuracy at the page or paragraph level. Beyond semantic NLP, the ultimate goal of "narrative" NLP is to embody a full understanding of commonsense reasoning.[132] By 2019, transformer-based deep learning architectures could generate coherent text.[133]
+
+Perception
+Machine perception[134] is the ability to use input from sensors (such as cameras (visible spectrum or infrared), microphones, wireless signals, and active lidar, sonar, radar, and tactile sensors) to deduce aspects of the world. Applications include speech recognition,[135] facial recognition, and object recognition.[136] Computer vision is the ability to analyze visual input. Such input is usually ambiguous; a giant, fifty-meter-tall pedestrian far away may produce the same pixels as a nearby normal-sized pedestrian, requiring the AI to judge the relative likelihood and reasonableness of different interpretations, for example by using its "object model" to assess that fifty-meter pedestrians do not exist.[137]
+
+Motion and manipulation
+Main article: Robotics
+AI is heavily used in robotics.[138] Advanced robotic arms and other industrial robots, widely used in modern factories, can learn from experience how to move efficiently despite the presence of friction and gear slippage.[139] A modern mobile robot, when given a small, static, and visible environment, can easily determine its location and map its environment; however, dynamic environments, such as (in endoscopy) the interior of a patient's breathing body, pose a greater challenge. Motion planning is the process of breaking down a movement task into "primitives" such as individual joint movements. Such movement often involves compliant motion, a process where movement requires maintaining physical contact with an object.[140][141][142] Moravec's paradox generalizes that low-level sensorimotor skills that humans take for granted are, counterintuitively, difficult to program into a robot; the paradox is named after Hans Moravec, who stated in 1988 that "it is comparatively easy to make computers exhibit adult level performance on intelligence tests or playing checkers, and difficult or impossible to give them the skills of a one-year-old when it comes to perception and mobility".[143][144] This is attributed to the fact that, unlike checkers, physical dexterity has been a direct target of natural selection for millions of years.[145]
+
+Social intelligence
+Moravec's paradox can be extended to many forms of social intelligence.[147][148] Distributed multi-agent coordination of autonomous vehicles remains a difficult problem.[149] Affective computing is an interdisciplinary umbrella that comprises systems which recognize, interpret, process, or simulate human affects.[150][151][152] Moderate successes related to affective computing include textual sentiment analysis and, more recently, multimodal affect analysis (see multimodal sentiment analysis), wherein AI classifies the affects displayed by a videotaped subject.[153]
+
+In the long run, social skills and an understanding of human emotion and game theory would be valuable to a social agent. The ability to predict the actions of others by understanding their motives and emotional states would allow an agent to make better decisions. Some computer systems mimic human emotion and expressions to appear more sensitive to the emotional dynamics of human interaction, or to otherwise facilitate human–computer interaction.[154] Similarly, some virtual assistants are programmed to speak conversationally or even to banter humorously; this tends to give naïve users an unrealistic conception of how intelligent existing computer agents actually are.[155]
+
+General intelligence
+Main articles: Artificial general intelligence and AI-complete
+Historically, projects such as the Cyc knowledge base (1984–) and the massive Japanese Fifth Generation Computer Systems initiative (1982–1992) attempted to cover the breadth of human cognition. These early projects failed to escape the limitations of non-quantitative symbolic logic models and, in retrospect, greatly underestimated the difficulty of cross-domain AI. Nowadays, most current AI researchers work instead on tractable "narrow AI" applications (such as medical diagnosis or automobile navigation).[156] Many researchers predict that such "narrow AI" work in different individual domains will eventually be incorporated into a machine with artificial general intelligence (AGI), combining most of the narrow skills mentioned in this article and at some point even exceeding human ability in most or all these areas.[26][157] Many advances have general, cross-domain significance. One high-profile example is that DeepMind in the 2010s developed a "generalized artificial intelligence" that could learn many diverse Atari games on its own, and later developed a variant of the system which succeeds at sequential learning.[158][159][160] Besides transfer learning,[161] hypothetical AGI breakthroughs could include the development of reflective architectures that can engage in decision-theoretic metareasoning, and figuring out how to "slurp up" a comprehensive knowledge base from the entire unstructured Web.[162] Some argue that some kind of (currently-undiscovered) conceptually straightforward, but mathematically difficult, "Master Algorithm" could lead to AGI.[163] Finally, a few "emergent" approaches look to simulating human intelligence extremely closely, and believe that anthropomorphic features like an artificial brain or simulated child development may someday reach a critical point where general intelligence emerges.[164][165]
+
+Many of the problems in this article may also require general intelligence, if machines are to solve the problems as well as people do. For example, even specific straightforward tasks, like machine translation, require that a machine read and write in both languages (NLP), follow the author's argument (reason), know what is being talked about (knowledge), and faithfully reproduce the author's original intent (social intelligence). A problem like machine translation is considered "AI-complete", because all of these problems need to be solved simultaneously in order to reach human-level machine performance.
+
+</body>
+</html> 
